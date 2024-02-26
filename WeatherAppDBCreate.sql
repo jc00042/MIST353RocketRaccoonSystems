@@ -1,9 +1,7 @@
-CREATE DATABASE WeatherAppDB
+USE [WeatherApp4DB]
 GO
 
-USE WeatherAppDB
-
-/****** Object:  Table [dbo].[Team]    Script Date: 2/22/2024 3:02:59 PM ******/
+/****** Object:  Table [dbo].[Team]    Script Date: 2/26/2024 4:04:58 PM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -11,14 +9,81 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[Team](
-	[TID] [nchar](10) NOT NULL,
-	[TName] [nvarchar](24) NULL,
-	[TLocation] [nvarchar](24) NULL,
+	[TeamID] [int] NOT NULL,
+	[TeamName] [varchar](50) NULL,
  CONSTRAINT [PK_Team] PRIMARY KEY CLUSTERED 
 (
-	[TID] ASC
+	[TeamID] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [dbo].[Match](
+	[MatchID] [int] NOT NULL,
+	[HomeTeamID] [int] NULL,
+	[AwayTeamID] [int] NULL,
+	[MatchDate] [date] NULL,
+ CONSTRAINT [PK_Match] PRIMARY KEY CLUSTERED 
+(
+	[MatchID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Match]  WITH NOCHECK ADD  CONSTRAINT [FK_Match_Team1] FOREIGN KEY([HomeTeamID])
+REFERENCES [dbo].[Team] ([TeamID])
+GO
+
+ALTER TABLE [dbo].[Match] NOCHECK CONSTRAINT [FK_Match_Team1]
+GO
+
+ALTER TABLE [dbo].[Match]  WITH NOCHECK ADD  CONSTRAINT [FK_Match_Team2] FOREIGN KEY([AwayTeamID])
+REFERENCES [dbo].[Team] ([TeamID])
+GO
+
+ALTER TABLE [dbo].[Match] NOCHECK CONSTRAINT [FK_Match_Team2]
+GO
+
+CREATE TABLE [dbo].[MatchResults](
+	[MatchID] [int] NOT NULL,
+	[HomeTeamGoals] [int] NOT NULL,
+	[AwayTeamGoals] [int] NULL,
+	[MatchResultsID] [int] NOT NULL,
+	[HomeTeamResult] [varchar](50) NULL,
+	[AwayTeamResult] [varchar](50) NULL,
+ CONSTRAINT [PK_MatchResults] PRIMARY KEY CLUSTERED 
+(
+	[MatchResultsID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[MatchResults]  WITH NOCHECK ADD  CONSTRAINT [FK_MatchResults_Match] FOREIGN KEY([MatchID])
+REFERENCES [dbo].[Match] ([MatchID])
+GO
+
+ALTER TABLE [dbo].[MatchResults] NOCHECK CONSTRAINT [FK_MatchResults_Match]
+GO
+
+CREATE TABLE [dbo].[NewPlayer](
+	[PID] [int] NOT NULL,
+	[PName] [varchar](50) NULL,
+	[PPosition] [varchar](50) NULL,
+	[PNumber] [int] NULL,
+	[TeamID] [int] NULL,
+ CONSTRAINT [PK_NewPlayer] PRIMARY KEY CLUSTERED 
+(
+	[PID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[NewPlayer]  WITH CHECK ADD  CONSTRAINT [FK_NewPlayer_Team] FOREIGN KEY([TeamID])
+REFERENCES [dbo].[Team] ([TeamID])
+GO
+
+ALTER TABLE [dbo].[NewPlayer] CHECK CONSTRAINT [FK_NewPlayer_Team]
 GO
 
 
