@@ -1,4 +1,7 @@
-USE [WeatherApp4DB]
+CREATE DATABASE WeatherAppDB
+GO
+
+USE [WeatherAppDB]
 GO
 
 /****** Object:  Table [dbo].[Team]    Script Date: 2/26/2024 4:04:58 PM ******/
@@ -11,6 +14,7 @@ GO
 CREATE TABLE [dbo].[Team](
 	[TeamID] [int] NOT NULL,
 	[TeamName] [varchar](50) NULL,
+	[TeamLocation] [varchar](50) NULL,
  CONSTRAINT [PK_Team] PRIMARY KEY CLUSTERED 
 (
 	[TeamID] ASC
@@ -85,5 +89,4 @@ GO
 
 ALTER TABLE [dbo].[NewPlayer] CHECK CONSTRAINT [FK_NewPlayer_Team]
 GO
-
 
