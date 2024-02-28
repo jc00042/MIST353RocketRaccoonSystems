@@ -26,8 +26,8 @@ The second procedure inserts match results into the MatchResults table.
 
 ### Andrew Forman
 1. spGetMatchResults
-Description: This procedure retrieves all match results in the database including the score and result of each game for each team
+* Description: This procedure retrieves all match results in the database including the score and result of each game for each team
 
 2. spGetTeamMatchResults
-Description: This pocedure retrieves all match results for a specified team, including the score and result of each game
+* Description: This pocedure retrieves all match results for a specified team, including the score and result of each game
 
