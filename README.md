@@ -12,4 +12,4 @@ ChatGPT Prompts:
 * Can you insert some premier league mock data into tables based on this SQL server code: *inserted table code*
 
 *Come up with a store procedure.
-8It gave me basic ideas to use for my procedures.
+*It gave me basic ideas to use for my procedures.
