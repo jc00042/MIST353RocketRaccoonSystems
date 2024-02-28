@@ -14,20 +14,19 @@ ChatGPT Prompts:
 *Come up with a store procedure.
 *It gave me basic ideas to use for my procedures.
 
-* Given the Team table, how would i add a 'location' column and add data to thet column
+* Given the Team table, how would I add a 'location' column and add data to the column
 
 
 
 ## Explaining Procedures
-Braelynne: This first procedure inserts a new player's information into the NewPlayer table.
-The second procedure inserts match results into the MatchResults table.
-
-* Given the Team table, how would i add a 'location' column and add data to that column
+##Braelynne Sandreth
+1. InsertNewPlayer: This procedure inserts a new player's information into the NewPlayer table.
+2. InsertMatchResults: This procedure inserts match results into the MatchResults table.
 
 ### Andrew Forman
 1. spGetMatchResults
 * Description: This procedure retrieves all match results in the database including the score and result of each game for each team
 
 2. spGetTeamMatchResults
-* Description: This pocedure retrieves all match results for a specified team, including the score and result of each game
+* Description: This procedure retrieves all match results for a specified team, including the score and result of each game
 
