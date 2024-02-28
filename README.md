@@ -13,3 +13,8 @@ ChatGPT Prompts:
 
 *Come up with a store procedure.
 *It gave me basic ideas to use for my procedures.
+
+
+## Explaining Procedures
+Braelynne: This first procedure inserts a new player's information into the NewPlayer table.
+The second procedure inserts match results into the MatchResults table.
