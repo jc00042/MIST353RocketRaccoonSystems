@@ -21,7 +21,7 @@ The second procedure inserts match results into the MatchResults table.
 
 * Given the Team table, how would i add a 'location' column and add data to that column
 
-# Andrew Forman
+### Andrew Forman
 1. spGetMatchResults
 Description: This procedure retrieves all match results in the database including the score and result of each game for each team
 
