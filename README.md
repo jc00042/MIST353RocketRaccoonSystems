@@ -14,6 +14,9 @@ ChatGPT Prompts:
 *Come up with a store procedure.
 *It gave me basic ideas to use for my procedures.
 
+* Given the Team table, how would i add a 'location' column and add data to thet column
+
+
 
 ## Explaining Procedures
 Braelynne: This first procedure inserts a new player's information into the NewPlayer table.
