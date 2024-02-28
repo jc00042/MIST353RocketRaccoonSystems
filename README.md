@@ -19,7 +19,7 @@ ChatGPT Prompts:
 
 
 ## Explaining Procedures
-##Braelynne Sandreth
+### Braelynne Sandreth
 1. InsertNewPlayer: This procedure inserts a new player's information into the NewPlayer table.
 2. InsertMatchResults: This procedure inserts match results into the MatchResults table.
 
