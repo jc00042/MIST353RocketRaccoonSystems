@@ -16,6 +16,8 @@ This page enables users to authenticate themselves to access personalized conten
 ### 6. Prediction Page: 
 This page allows users to make predictions for upcoming matches or events, providing a platform for users to engage in sports analysis or betting. This page can be used for any team that we have added to the application. It will provide the match results under a certain weather for a desired team.
 
+<br/>
+
 ## API Information
 
 ### Jachob Clark
@@ -38,9 +40,6 @@ This API enables seamless management of new player data, offering essential func
 2. MatchResultsService
 Description:
 This API facilitates efficient management of match results data, empowering users to seamlessly handle operations such as insertion, retrieval, and manipulation of match outcomes. Through its intuitive interface, users can effortlessly interact with the system to obtain detailed match results, enhancing overall system functionality.
-
-
-<br/>
 
 ### Andrew Forman
 1. Matches <br/>
