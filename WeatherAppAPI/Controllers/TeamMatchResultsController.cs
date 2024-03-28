@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using APItest.Repositories;
-using APItest.Entities;
+using WeatherAppAPI.Repositories;
+using WeatherAppAPI.Entities;
 
-namespace APItest.Controllers
+namespace WeatherAppAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
