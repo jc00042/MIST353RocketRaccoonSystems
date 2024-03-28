@@ -1,7 +1,6 @@
-using APItest.Entities;
-using APItest.Repositories;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using WeatherAppAPI.Entities;
+using WeatherAppAPI.Repositories;
 
 // This API was done by Andrew Forman
 
