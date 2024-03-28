@@ -1,9 +1,15 @@
-﻿using WeatherAppAPI.Data;
+using WeatherAppAPI.Data;
 using WeatherAppAPI.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 //This API done by Jachob Clark
+/**
+ * This  is the service for NewPlayerService.
+ * NewPlayerService is a service that will get you the information
+ * of a desired player. The naming convention does not say what it
+ * does directly and can be misleading.
+ */
 
 namespace WeatherAppAPI.Repositories
 {
