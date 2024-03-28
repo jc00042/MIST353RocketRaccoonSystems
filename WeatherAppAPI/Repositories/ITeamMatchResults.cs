@@ -1,6 +1,6 @@
-using APItest.Entities;
+using WeatherAppAPI.Entities;
 
-namespace APItest.Repositories
+namespace WeatherAppAPI.Repositories
 {
     public interface ITeamMatchResults
     {
