@@ -6,7 +6,7 @@ CREATE PROC spPlayerInfo
 @PID INT
 AS
 BEGIN
-SELECT P.PName, P.PPosition, T.TeamName 
+SELECT P.* 
 FROM NewPlayer as P
 INNER JOIN Team as T on P.TeamID = T.TeamID
 WHERE PID = @PID;
@@ -22,7 +22,7 @@ CREATE PROC spSameLocation
 @TeamLocation VARCHAR(50)
 AS
 BEGIN
-SELECT T.TeamID, T.TeamName
+SELECT T.*
 FROM TEAM as T
 WHERE TeamLocation = @TeamLocation
 END;
