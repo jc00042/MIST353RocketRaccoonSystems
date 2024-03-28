@@ -1,6 +1,6 @@
 using WeatherAppAPI.Entities;
 
-namespace APItest.Repositories
+namespace WeatherAppAPI.Repositories
 
 // This API was done by Andrew Forman
 
