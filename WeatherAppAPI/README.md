@@ -24,12 +24,14 @@ Description: This API will will give the list of teams that are located in a des
 ### Braelynne Sandreth
 
 1. NewPlayerServices
-Description: This API enables seamless management of new player data, offering essential functionalities for inserting, updating, and deleting player information within the application. With its comprehensive set of methods, users can effortlessly handle various aspects of player management, ensuring smooth operations throughout the system.
+Description:
+This API enables seamless management of new player data, offering essential functionalities for inserting, updating, and deleting player information within the application. With its comprehensive set of methods, users can effortlessly handle various aspects of player management, ensuring smooth operations throughout the system.
 
 <br/>
 
 2. MatchResultsService
-Description: This API facilitates efficient management of match results data, empowering users to seamlessly handle operations such as insertion, retrieval, and manipulation of match outcomes. Through its intuitive interface, users can effortlessly interact with the system to obtain detailed match results, enhancing overall system functionality.
+Description:
+This API facilitates efficient management of match results data, empowering users to seamlessly handle operations such as insertion, retrieval, and manipulation of match outcomes. Through its intuitive interface, users can effortlessly interact with the system to obtain detailed match results, enhancing overall system functionality.
 
 
 <br/>
