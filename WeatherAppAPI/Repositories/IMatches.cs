@@ -1,4 +1,4 @@
-using APItest.Entities;
+using WeatherAppAPI.Entities;
 
 namespace APItest.Repositories
 
