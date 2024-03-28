@@ -24,6 +24,13 @@ Description: This API will will give the list of teams that are located in a des
 ### Braelynne Sandreth
 
 ### Andrew Forman
+1. Matches <br/>
+Description: This API will retrieve the results of any given match. The input for this API will be MatchResultsID, and the output will be all stored information for that specific match including the goals scored and the result for each team.
+
+<br/>
+
+2. Team Match Results <br/>
+Description: This API will retrieve all match results for a specific team. The input for this API will be TeamID, and the output will be all match result information for the given team, including the goals scored and the result.
 
 <br/>
 
@@ -32,5 +39,7 @@ Description: This API will will give the list of teams that are located in a des
 * I am converting sql server stored procedures to APIs in ASP.NET Core 8. I need to convert this table to a class. Give me the code: *inserted code to be converted*
 
 * Come up with some static and dynamic web pages for a weather prediction application.
+
+* I am converting SQL server stored procedures to APIs in ASP.NET core 8. I need to convert this table to a class. Give me the code
 
 ### Class Lecture Videos
