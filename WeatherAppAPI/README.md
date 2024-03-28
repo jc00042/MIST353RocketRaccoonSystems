@@ -23,6 +23,17 @@ Description: This API will will give the list of teams that are located in a des
 
 ### Braelynne Sandreth
 
+1. NewPlayerServices
+Description: This API enables seamless management of new player data, offering essential functionalities for inserting, updating, and deleting player information within the application. With its comprehensive set of methods, users can effortlessly handle various aspects of player management, ensuring smooth operations throughout the system.
+
+<br/>
+
+2. MatchResultsService
+Description: This API facilitates efficient management of match results data, empowering users to seamlessly handle operations such as insertion, retrieval, and manipulation of match outcomes. Through its intuitive interface, users can effortlessly interact with the system to obtain detailed match results, enhancing overall system functionality.
+
+
+<br/>
+
 ### Andrew Forman
 1. Matches <br/>
 Description: This API will retrieve the results of any given match. The input for this API will be MatchResultsID, and the output will be all stored information for that specific match including the goals scored and the result for each team.
@@ -41,5 +52,9 @@ Description: This API will retrieve all match results for a specific team. The i
 * Come up with some static and dynamic web pages for a weather prediction application.
 
 * I am converting SQL server stored procedures to APIs in ASP.NET core 8. I need to convert this table to a class. Give me the code
+
+* Based on my stored procedures, what could I use for my API's. (It gave me input, output ideas and their purpose.
+
+* I need to convert SQL server stored procedures to API's in ASP.NET core 8. This needs converted fro a table into a class. What is the code?
 
 ### Class Lecture Videos
