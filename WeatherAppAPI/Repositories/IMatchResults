@@ -1,6 +1,6 @@
 using WeatherAppAPI.Entities;
 
-//This is done by Braelynne Sandreth
+//This API was done by Braelynne Sandreth
 
 /**
  * The Match Result interface is a service responsible for managing match results.
