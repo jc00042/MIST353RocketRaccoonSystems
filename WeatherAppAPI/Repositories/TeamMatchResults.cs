@@ -3,6 +3,8 @@ using WeatherAppAPI.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
+//This API was done by Andrew Forman
+
 namespace WeatherAppAPI.Repositories
 {
     public class TeamMatchResults : ITeamMatchResults
