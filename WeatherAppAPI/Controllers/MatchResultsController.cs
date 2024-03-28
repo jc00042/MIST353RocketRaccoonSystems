@@ -4,7 +4,7 @@ using WeatherAppAPI.Repositories;
 
 // This API was done by Andrew Forman
 
-namespace APItest.Controllers
+namespace WeatherAppAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
