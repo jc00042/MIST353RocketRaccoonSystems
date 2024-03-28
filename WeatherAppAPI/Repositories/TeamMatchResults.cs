@@ -3,14 +3,14 @@ using WeatherAppAPI.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
-namespace APItest.Repositories
+namespace WeatherAppAPI.Repositories
 {
     public class TeamMatchResults : ITeamMatchResults
     {
-        private readonly DBContext _dbContext;
-        public TeamMatchResults(DBContext dbContext)
+        private readonly DbContextClass _dbContextClass;
+        public TeamMatchResults(DbContextClass dbContextClass)
         {
-            _dbContext = dbContext;
+            _dbContextClass = dbContextClass;
         }
 
         public async Task<List<Team>> GetTeamMatchResults(int TeamID)
