@@ -1,8 +1,7 @@
-using APItest.Data;
-using APItest.Entities;
+using WeatherAppAPI.Data;
+using WeatherAppAPI.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-
 // This API was done by Andrew Forman
 
 namespace APItest.Repositories
