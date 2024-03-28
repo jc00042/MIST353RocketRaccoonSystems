@@ -1,5 +1,5 @@
-using APItest.Data;
-using APItest.Entities;
+using WeatherAppAPI.Data;
+using WeatherAppAPI.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
