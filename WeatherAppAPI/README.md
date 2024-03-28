@@ -3,12 +3,18 @@
 
 ## Web Page Ideas and Information
 
-### 1. Main Page: This page serves as the landing page for the website, providing general information about the platform and possibly featuring highlights or news.
-### 2. Team Page: This page displays information about a specific team, such as its history, roster, achievements, and possibly some multimedia content like images or videos.
-### 3. Player Page: This page provides detailed information about a specific player, including their stats, bio, and career highlights.
-### 4. Favorite Teams Page: This page allows users to manage their favorite teams, typically through functionalities like adding or removing teams from their list.
-### 5. Login Page: This page enables users to authenticate themselves to access personalized content or perform actions restricted to registered users.
-### 6. Prediction Page: This page allows users to make predictions for upcoming matches or events, providing a platform for users to engage in sports analysis or betting.
+### 1. Main Page: 
+This page serves as the landing page for the website, providing general information about the platform and possibly featuring highlights or news. It will also welcome the user to our web application. It will provide an overview of what the application does and how to use it.
+### 2. Team Page: 
+This page displays information about a specific team, such as its history, roster, achievements, and possibly some multimedia content like images or videos. From this page a user can see all of this useful information that will also help a user predict the mathces they play in.
+### 3. Player Page: 
+This page provides detailed information about a specific player, including their stats, bio, and what team they play for. This page will allow the user to also use the application as a way to stay updated on team rosters.
+### 4. Favorite Teams Page: 
+This page allows users to manage their favorite teams, typically through functionalities like adding or removing teams from their list. A user can add as many favorite teams that they have within this page. This allows the user to easily to predict a match with their favorite teams.
+### 5. Login Page: 
+This page enables users to authenticate themselves to access personalized content or perform actions restricted to registered users.
+### 6. Prediction Page: 
+This page allows users to make predictions for upcoming matches or events, providing a platform for users to engage in sports analysis or betting. This page can be used for any team that we have added to the application. It will provide the match results under a certain weather for a desired team.
 
 ## API Information
 
