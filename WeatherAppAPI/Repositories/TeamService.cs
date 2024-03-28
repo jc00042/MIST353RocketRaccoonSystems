@@ -1,9 +1,15 @@
-﻿using WeatherAppAPI.Data;
+using WeatherAppAPI.Data;
 using WeatherAppAPI.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 //This API done by Jachob Clark
+/**
+ * This is the service for ITeamService.
+ * ITeamService is a service that will get you the list
+ * of teams in the same desired city. The naming convention
+ * does not say what it does directly and can be misleading.
+ */
 
 namespace WeatherAppAPI.Repositories
 {
